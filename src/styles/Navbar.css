@@ -1,0 +1,71 @@
+.navbar-icons{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.login-button{
+    right: 13rem;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px;
+    max-width: 90%;
+  }
+  
+  .support-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .support-questions {
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .support-question {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .support-question:hover {
+    background: #f0f0f0;
+  }
+
+
+  /* Add this to your Navbar.css */
+.send-query-button {
+    background-color: #007BFF; /* Cool blue color */
+    color: white; /* White text */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+
+  
+  .send-query-button:active {
+    background-color: #004080; /* Even darker blue when pressed */
+    transform: scale(0.95); /* Pressed-in effect */
+  }
+  

@@ -1,0 +1,171 @@
+.complain {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.complain_area {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.complain_box {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.complain_photo {
+  margin-bottom: 20px;
+}
+
+.complain_photo h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.complain_photo input[type="file"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.complain_own_detail {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.complain_name,
+.complain_phone {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.complain_name h2,
+.complain_phone h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.complain_name input,
+.complain_phone input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.complain_address {
+  margin-bottom: 20px;
+}
+
+.complain_address h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.complain_address input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.complain_description {
+  margin-bottom: 20px;
+}
+
+.complain_description h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.complain_description textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.complain_sendbutton {
+  text-align: right;
+}
+
+.complain_sendbutton button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.complain_sendbutton button:hover {
+  background-color: #45a049;
+}
+
+.complain_content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.complain_rightup,
+.complain_rightdown {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.complain_pic {
+  width: 100%;
+  height: 200px; 
+  overflow: hidden; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+.complain_pic img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; 
+}
+
+.complain_benfits {
+  text-align: left;
+}
+
+.complain_benfits h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.complain_benfits ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.complain_benfits ul li {
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.complain_benfits ul li::before {
+  content: '✔';
+  color: #4CAF50;
+  position: absolute;
+  left: 0;
+  top: 0;
+}

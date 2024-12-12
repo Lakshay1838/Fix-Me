@@ -1,0 +1,319 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 25px 20px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.logo-icon {
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  padding: 5px 10px;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.logo-text {
+  color: black;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.navbar-links a {
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 19px;
+}
+
+.navbar-search {
+  display: flex;
+  align-items: center;
+  background-color: #f7f7f7;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+
+}
+
+.location {
+  background-color: #f7f7f7;
+  padding: 8px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  width: 15rem;
+}
+
+.location-icon {
+  margin-right: 5px;
+}
+
+.dropdown-arrow {
+  margin-left: 5px;
+}
+
+.navbar-search input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  font-size: 15px;
+}
+
+.navbar-icons {
+  cursor: pointer;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+
+.location-input {
+  width: 100%;
+  padding: 10px;
+  margin: 15px -25px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.modal-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal-button:hover {
+  background-color: #0056b3;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 70px;
+  right: 125px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+}
+
+.dropdown-item {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+.dropdown-item:hover {
+  background-color: #f7f7f7;
+}
+
+.login-button{
+  text-decoration: underline;
+  position: absolute;
+  right: 10.5rem;
+  top: 34px;
+}
+
+.sign-in-modal h2 {
+  margin-bottom: 20px;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 0.3s ease-in-out; 
+}
+
+.modal-content h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.sign-in-input, .sign-up-input {
+  width: 20rem;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.sign-in-input:focus, .sign-up-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+.modal-button {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.sign-in-modal button{
+  /* margin: 5px 10px; */
+  margin-left: 15px;
+  width: 150px;
+}
+
+.modal-button:hover {
+  background-color: #0056b3;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+
+.footer_container{
+    padding: 145px 145px 0 145px;
+    background-color: #d3d3d336;
+}
+.cursor{
+    cursor: pointer;
+}
+.footer_container p{
+  padding: 10px;
+}
+
+
+.complain_field_type {
+  margin-top: 20px;
+}
+
+.complain_field_type h2 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.complain_field_type select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+.complain_field_type select:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+.complain_field_type select option {
+  padding: 10px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.complain_sendbutton {
+  margin-top: 20px;
+}
+
+.select-expertise {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+.select-expertise:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+.select-expertise option {
+  padding: 10px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.upcoming-work-section {
+  /* max-height: 400px;  */
+  overflow-y: auto;  
+  margin-bottom: 20px; 
+}
+
+.check_vendor{
+  height: 30px;
+}
+
+.check_vendor label{
+  text-align: center;
+  position: relative;
+  top: 3px;
+  font-size:larger;
+}
+
+.check_vendor input{
+  text-align: center;
+  position: relative;
+  top: 3px;
+}
+
+input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+  transform: scale(1.5); /* Adjust the scale as needed */
+  margin-right: 10px; /* Optional: Adjust spacing */
+}
+
+
